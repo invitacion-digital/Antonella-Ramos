@@ -36,3 +36,13 @@ section.fiesta .item-fiesta .content-item-fiesta{
     background-color: #efe9f9 !important;
   }
 }
+section.portada::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.150) !important;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
